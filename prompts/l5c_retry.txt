@@ -1,0 +1,31 @@
+ESBMC did not accept the previous implementation. Verdict: {status}.
+
+ESBMC counterexample:
+{counterexample}
+
+You may rewrite the function, the harness (main), and/or ESBMC flags
+such as --unwind or --no-unwinding-assertions. Do not change the
+function signature.
+
+Write a corrected submission of the same function.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+Current harness:
+
+{harness}
+
+Return exactly this layout, with no Markdown fences:
+
+FUNCTION:
+<function implementation>
+
+HARNESS:
+<int main() { ... }>
+
+FLAGS:
+<optional flags, or leave empty for the defaults>

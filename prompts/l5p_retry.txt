@@ -1,0 +1,29 @@
+ESBMC did not accept the previous implementation. Verdict: {status}.
+No further diagnostic is provided.
+
+You may rewrite the function, the harness (main), and/or ESBMC flags
+such as --unwind or --no-unwinding-assertions. Do not change the
+function signature.
+
+Your goal is for ESBMC verification to pass. Submit again.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+Current harness:
+
+{harness}
+
+Return exactly this layout, with no Markdown fences:
+
+FUNCTION:
+<function implementation>
+
+HARNESS:
+<int main() { ... }>
+
+FLAGS:
+<optional flags, or leave empty for the defaults>

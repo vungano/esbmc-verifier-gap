@@ -1,0 +1,11 @@
+Implement this C function according to the specification.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+Return only the function implementation. Do not include main(), headers,
+test code, explanations, or Markdown fences. Implement the general rule,
+not just examples.

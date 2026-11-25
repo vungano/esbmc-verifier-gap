@@ -1,0 +1,14 @@
+Implement this C function according to the specification.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+ESBMC, a bounded model checker, will verify this function. Write a
+correct implementation that ESBMC can verify.
+
+Return only the function implementation. Do not include main(), headers,
+test code, explanations, or Markdown fences. Implement the general rule,
+not just examples. Do not edit any verification harness.

@@ -1,0 +1,15 @@
+ESBMC did not accept the previous implementation. Verdict: {status}.
+
+ESBMC counterexample:
+{counterexample}
+
+Write a corrected C implementation of the same function.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+Return only the function implementation. Do not include main(), headers,
+test code, explanations, or Markdown fences.

@@ -1,0 +1,17 @@
+ESBMC did not accept the previous implementation. Verdict: {status}.
+No further diagnostic is provided.
+
+You may add __ESBMC_assume(...), assert(...), and nondet_int() /
+nondet_uint() inside the function body. Do not add main(), and do not
+edit any verification harness.
+
+Write a corrected C implementation of the same function.
+
+Specification:
+{specification}
+
+Required signature:
+{signature}
+
+Return only the function implementation. Do not include headers, test
+code, explanations, or Markdown fences.
